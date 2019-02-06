@@ -65,3 +65,54 @@ body {
 	margin-top: 1rem;
 
 }
+
+.container {
+	max-width: 960px;
+	margin:auto;
+	overflow: hidden;
+	padding: 4rem 1rem;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+
+}
+
+
+.bg-light {
+	background: #f4f4f4;
+	color: #333;
+
+}
+
+.bg-dark {
+	background: #333;
+	color: #f4f4f4;
+
+}
+
+footer {
+	text-align: center;
+	padding:2.2rem;
+}
+
+footer p {
+
+	margin : 0;
+
+}
+
